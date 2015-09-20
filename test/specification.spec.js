@@ -2,7 +2,7 @@
 "use strict";
 
 var expect = require("chai").expect;
-var Specification = require("../lib/specification");
+var Specification = require("../index").Specification;
 
 
 // Define a true specification
@@ -37,7 +37,7 @@ LessThanSpecification.prototype.isSatisfiedBy = function(n, cb) {
   return cb(null, n < this.num);
 };
 
-describe("specification patter", function() {
+describe("Specification asynchronous pattern", function() {
 
   it("false specification must satisfies to false", function(done) {
     new FalseSpecification().isSatisfiedBy(null, function(err, satisfies) {

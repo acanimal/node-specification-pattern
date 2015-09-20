@@ -1,0 +1,31 @@
+{
+  "name": "node-specification-pattern",
+  "version": "0.1.0",
+  "description": "Node implementation of the specification pattern",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js .",
+    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acanimal/node-specification-pattern.git"
+  },
+  "keywords": [
+    "specification",
+    "pattern",
+    "node",
+    "validation"
+  ],
+  "author": "Antonio Santiago <asantiagop@gmail.com> (http://acuriousanimal.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acanimal/node-specification-pattern/issues"
+  },
+  "homepage": "https://github.com/acanimal/node-specification-pattern",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "eslint": "^1.5.0",
+    "mocha": "^2.3.2"
+  }
+}

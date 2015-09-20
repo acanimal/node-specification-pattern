@@ -1,7 +1,6 @@
-# node-specification-pattern
+# Specification pattern for NodeJS
 
-Specification pattern implementation for NodeJS.
-Suitable for any kind of validations, simpliying and make them more clear.
+Specification pattern implementation for NodeJS. Suitable for any kind of validations, simplifying, improving reusability and and making code clearer.
 
 Although the [specification pattern](https://en.wikipedia.org/wiki/Specification_pattern) is mainly use in [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) to check business rules, I the idea of combine rules offers great flexibility.
 

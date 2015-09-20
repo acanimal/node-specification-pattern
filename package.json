@@ -1,5 +1,5 @@
 {
-  "name": "node-specification-pattern",
+  "name": "specification",
   "version": "0.1.0",
   "description": "Node implementation of the specification pattern",
   "main": "index.js",
